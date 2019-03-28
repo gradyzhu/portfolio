@@ -597,3 +597,14 @@ ul li {
 .test {
   font-size: 20px;
 }
+
+#about-me p{
+  font-size: 16px;
+}
+
+#about-me i{
+  font-size: 20px;
+  background-color: rgb(245, 245, 245);
+  padding: 12px;
+  border-radius: 50%;
+}
