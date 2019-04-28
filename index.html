@@ -1,155 +1,140 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
 
-<head>
-<meta charset="utf-8">
-<meta name="description" content="">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Auro - Elegant, Minimal, Creative Bootstrap Template </title>
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link rel="stylesheet" href="css/flexslider.css">
-<link rel="stylesheet" href="css/main.css">
-<link rel="stylesheet" href="css/responsive.css">
-<link rel="stylesheet" href="css/animate.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700" rel="stylesheet">
-</head>
+  <head>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Source+Sans+Pro:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  </head>
 
-<body>
-
-<!-- Header Section -->
-<section class="tophead" role="tophead"> 
-  <!-- Navigation Section -->
-  <header id="header">
-    <div class="header-content clearfix"> <a class="logo" href="#">Grady Zhu</a>
-      <nav class="navigation" role="navigation">
-        <ul class="primary-nav">
-          <li><a href="#header-slider">Home</a></li>
-          <li><a href="#portfolio">Projects</a></li>
-          <li><a href="#about-me">About Me</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+  <body>
+      <nav class="nav-bar-container">
+        <div class="nav-bar-left-container">
+          <a class="logo" href="https://www.gradyzhu.com">grady zhu</a>
+        </div>
+        <div class="nav-bar-right-container">
+          <a class="nav-bar-item" href="#projects">Projects</a>
+          <a class="nav-bar-item" href="#about">About</a>
+          <a class="nav-bar-item" href="#contact">Contact</a>
+        </div>
       </nav>
-      <a href="#" class="nav-toggle">Menu<span></span></a> </div>
-  </header>
-  <!-- Navigation Section --> 
-</section>
-<!-- Header Section --> 
-<!-- Service Section -->
-<section id="services" class="section services">
-  <div class='flex-center'>
-    <div class='header-container'>
-      <h4>Hi, I'm Grady. I'm a full-stack web developer and creative based in San Francisco.</h4>
-    </div>
-  </div>
-</section>
-<!-- Service Section --> 
+  
+      <div class="slogan-container">
+        <div class="slogan">
+          <h1>Hi, I’m Grady. I’m a full stack-developer with a background in design.</h1>
+        </div>
+      </div>
 
-<!-- portfolio grid section -->
-<section id="portfolio" class="section portfolio">
-  <div class="container-fluid">
-    <div class="row">
-      <h5 class="spacing"> Projects </h5>
+      <div class="projects-container" id="projects">
+        <div class="project-section-header">
+          <h1 class="project-head">projects</h1>
+          <hr class="line">
+        </div>
 
-      <div class="col-sm-6 portfolio-item"> 
-        <div class="portfolio-link">
-          <div class="caption">
-            <div class="caption-content">
-              <h3>smilr</h3>
-              <h4>FIRST PERSON SHOOTER GAME</h4>
-              <a href="google.com"><h3>Github</h3></a>
-              <a href="google.com"><h3>Live Site</h3></a>
-            </div>
+        <div class="project-1">
+          <img class="image-container" src="images/smilr.png">
+          <div class="text-container">
+            <h2 class="project-title">smilr</h2>
+            <p class="project-paragraph">A clone of the popular photo-sharing platform Flickr.  User's can view photos, upload photos, and create albums. This was built using a Ruby on Rails backend and React / Redux frontend. </p>
+            <a class="github" href="https://github.com/gradyzhu/smilr">Github</a>
+            <a class="live-site" href="https://smilr.herokuapp.com">Live Site</a>
           </div>
-          <img src="images/portfolio/duckhunt_thumbnail.png" class="img-responsive" alt=""> 
-        </div> 
-      </div>
+        </div>
 
-      <div class="col-sm-6 portfolio-item"> 
-        <div class="portfolio-link">
-          <div class="caption">
-            <div class="caption-content">
-              <h3>duckhunt</h3>
-              <h4>FIRST PERSON SHOOTER GAME</h4>
-              <a href="google.com"><h3>Github</h3></a>
-              <a href="google.com"><h3>Live Site</h3></a>
-            </div>
+        <div class="project-1">
+          <img class="image-container" src="images/duckhunt.png">
+          <div class="text-container">
+            <h2 class="project-title">duckhunt</h2>
+            <p class="project-paragraph">
+                A shooter game. The objective is to rack up as many points as possible by shooting moving targets.  Built using HTML5 Canvas and Javascript</p>
+            <a class="github" href="https://github.com/gradyzhu/duckhunt">Github</a>
+            <a class="live-site" href="https://gradyzhu.github.io/duckhunt/">Live Site</a>
           </div>
-          <img src="images/portfolio/duckhunt_thumbnail.png" class="img-responsive" alt=""> 
-        </div> 
-      </div>
+        </div>
 
-      <div class="col-sm-6 portfolio-item"> 
-        <div class="portfolio-link">
-          <div class="caption">
-            <div class="caption-content">
-              <h3>sweet</h3>
-              <h4>Twitter Sentiment Analysis Tool</h4>
-              <a href="google.com"><h3>Github</h3></a>
-              <a href="google.com"><h3>Live Site</h3></a>
-            </div>
+        <div class="project-1">
+          <img class="image-container" src="images/sweet.png">
+          <div class="text-container">
+            <h2 class="project-title">sweet analyzer</h2>
+            <p class="project-paragraph">
+                Sweet is a data visualization tool that pairs IBM Watson's sentiment analysis API with Twitter's API.  Freely look up hashtags and see how the masses feel about a given topic.</p>
+            <a class="github" href="https://github.com/rfoong8983/sweet_flex_project/wiki">Github</a>
+            <a class="live-site" href="http://sweet-analyzer.herokuapp.com">Live Site</a>
           </div>
-          <img src="images/portfolio/sweet_thumbnail.png" class="img-responsive" alt=""> 
-        </div> 
+        </div>
       </div>
-
-      <div class="col-sm-6 portfolio-item"> 
-        <div class="portfolio-link">
-          <div class="caption">
-            <div class="caption-content">
-              <h3>boomerman</h3>
-              <h4>COMING SOON</h4>
-              <div class="flex-row">
-                <a href="google.com"><h3>Github</h3></a>
-                <a href="google.com"><h3>Live Site</h3></a>
-              </div>
-            </div>
+  
+      <div class="contact-container" id="contact">
+        <h1 class="interested-text">Interested in working together?</h1>
+        <a href="mailto:gradyzhoo@gmail.com" class="email">Let's chat!</a>
+      </div>
+  
+      <div class="about-me-container" id="about">
+        <div class="about-me-section-header">
+            <h1 class="project-head-2">about me</h1>
+            <hr class="line">
+        </div>
+        <div class="about-me-details"> 
+          <img class="profile-image" src="images/grady_zhu.png">
+          <p class="paragraph">
+            After 5 years working in the motion graphics industry, I set my sights on becoming a full stack web developer. As a former creative director, my aim is to find simple and elegant solutions to problems. 
+            <!-- <br><br> -->
+            Warriors fan. Poker player. Coffee addict.
+          </p>
+          <div class="icons">
+              <a class="icon-text-links" href="https://github.com/gradyzhu"><i class="fab fa-github"></i>Github</a>
+              <a class="icon-text-links" href="https://www.linkedin.com/in/gradyzhu/"><i class="fab fa-linkedin"></i>LinkedIn</a>
+              <a class="icon-text-links" href="https://angel.co/grady-zhu"><i class="fab fa-angellist"></i>AngelList</a>
           </div>
-          <img src="images/portfolio/bomberman_thumbnail.png" class="img-responsive" alt=""> 
-        </div> 
+        </div>
       </div>
-  </div>
-</section>
-<!-- portfolio grid section --> 
 
-<!-- Testimonials section -->
-<section id="about-me" class="section about-me flex-center">
-    <div class="about-me-container flex-center">
-      <img class="image-container flex-center" src="/images/portfolio/grady_zhu.png">
-      <div class="about-me-text">
-        <h5 class="spacing"> ABOUT ME </h5>
-        <p>
-          After 5 years working in the motion graphics industry, I set my sights on becoming a full stack web developer. As a former creative director, my aim is to find simple and elegant solutions to problems.  Interested in working together? Lets chat!
-        </p>
-        <p class="spacing">
-          Email: <a href="mailto:hello@agency.com"> gradyzhoo@gmail.com </a>
-        </p>
-        <a><i class="fa fa-linkedin"></i></a>
-        <a><i class="fa fa-github test"></i></a>
+      <div class="technologies-container">
+          <div class="technologies-header">
+              <h1 class="project-head">technologies</h1>
+              <hr class="line">
+          </div>
+          <div class="technologies-grid"> 
+            <div class="technologies-grid-image"><img class="icon-image" src="images/react.png"></div>
+            <div class="technologies-grid-text">react</div>
+            <div class="technologies-grid-image"><img class="icon-image" src="images/javascript.png"></div>
+            <div class="technologies-grid-text">javascript</div>
+            <div class="technologies-grid-image"><img class="icon-image" src="images/redux.png"></div>
+            <div class="technologies-grid-text">redux</div>
+            <div class="technologies-grid-image"><img class="icon-image" src="images/ruby.png"></div>
+            <div class="technologies-grid-text">ruby</div>
+            <div class="technologies-grid-image"><img class="icon-image" src="images/heroku.png"></div>
+            <div class="technologies-grid-text">heroku</div>
+            <div class="technologies-grid-image"><img class="icon-image" src="images/html.png"></div>
+            <div class="technologies-grid-text">html5</div>
+            <div class="technologies-grid-image"><img class="icon-image" src="images/css.png"></div>
+            <div class="technologies-grid-text">css</div>
+            <div class="technologies-grid-image"><img class="icon-image" src="images/sketch.png"></div>
+            <div class="technologies-grid-text">sketch</div>
+            <div class="technologies-grid-image"><img class="icon-image" src="images/mongodb.png"></div>
+            <div class="technologies-grid-text">mongodb</div>
+            <div class="technologies-grid-image"><img class="icon-image" src="images/git.png"></div>
+            <div class="technologies-grid-text">git</div>
+            <div class="technologies-grid-image"><img class="icon-image" src="images/postgres.png"></div>
+            <div class="technologies-grid-text">postgreSQL</div>
+            <div class="technologies-grid-image"><img class="icon-image" src="images/illustrator.png"></div>
+            <div class="technologies-grid-text">illustrator</div>
+            <div class="technologies-grid-image"><img class="icon-image" src="images/photoshop.png"></div>
+            <div class="technologies-grid-text">photoshop</div>
+            <div class="technologies-grid-image"><img class="icon-image" src="images/finalcut.png"></div>
+            <div class="technologies-grid-text">final cut pro 10</div>
+            <div class="technologies-grid-image"><img class="icon-image" src="images/motion.png"></div>
+            <div class="technologies-grid-text">motion 5</div>
+            <div class="technologies-grid-image"><img class="icon-image" src="images/webpack.png"></div>
+            <div class="technologies-grid-text">webpack</div>
+            <div class="technologies-grid-image"><img class="icon-image" src="images/rails.png"></div>
+            <div class="technologies-grid-text">ruby on rails</div>
+          </div>
+        </div>
+
+      <div class="footer-container">
+        Copyright 2019 © Grady Zhu
       </div>
-    </div>
-</section>
-<!-- Testimonials section --> 
 
-<!-- footer section -->
-<footer id="contact" class="footer">
-  <div class="container-fluid">
-    <div class="flex-center">
-      <p>© 2019 Grady Zhu. All Rights Reserved.</p>
-    </div>
-  </div>
-</footer>
-<!-- footer section --> 
-
-<!-- JS FILES --> 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
-<script src="js/bootstrap.min.js"></script> 
-<script src="js/jquery.flexslider-min.js"></script> 
-<script src="js/retina.min.js"></script> 
-<script src="js/modernizr.js"></script> 
-<script src="js/main.js"></script>
-</body>
+  </body>
 </html>
